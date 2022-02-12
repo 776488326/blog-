@@ -22,7 +22,7 @@ module.exports = {
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   bodyBgImg: [
-    '/img/homebg00.png',
+    '/img/bg-img.png',
   ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
@@ -51,7 +51,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: '/img/personal.png',
     name: '冯 亮',
-    slogan: '永远别说办不到，怎么都要去尝试！',
+    slogan: '保持热爱，保持激情！',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
