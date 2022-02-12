@@ -21,3 +21,23 @@
 
 # 源码同步
 - npm run deployo
+
+# md文档编写头
+    ---
+    title: 标题
+    permalink: 路径
+    tags: 
+    - 所属标签
+    date: 2021-09-25 11:09:59
+    categories: 
+    - 所属分类
+    - 。。。
+    ---
+
+# 文档中各分类路径             二级分类
+- 首页     /                    
+- 简历     /resume              /
+- 计算机   /compute             /http         /ds          /os
+- 前端     /web                 /html         /css         /js
+- 后端     /node                /node         /mongodb     /koa  /any           
+- 收藏夹   /collect             /website      /blog

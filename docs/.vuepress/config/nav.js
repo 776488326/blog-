@@ -1,11 +1,19 @@
 // nav
 module.exports = [
-  { text: '首页', link: '/' },
-  { text: '简历', link: '/resume/' },
+  { text: '首页', 
+    link: '/' 
+  },
+  { text: '简历', 
+    link: '/resume/' 
+  },
   {
     text: '计算机',
-    link: '/compute/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-    
+    link: '/compute/',
+    items: [
+      {text: "Http",link: "/compute/http"},
+      {text: "DateStruct",link: "/compute/ds"},
+      {text: "OperatingSystem",link: "/compute/os"},
+    ]
   },
   {
     text: '前端',
@@ -18,17 +26,21 @@ module.exports = [
     ],
   },
   {
-    text: '笔记',
-    link: '/note/',
+    text: '后端',
+    link: '/node/',
     items: [
-      { text: '技术文档', link: '/note/tec/' },
-      { text: 'GitHub技巧', link: '/note/github/' },
-      { text: 'Nodejs', link: '/note/node/' },
-      { text: '学习笔记', link: '/note/study/' },
+      { text: 'Node', link: '/node/node/' },
+      { text: 'MongoDB', link: '/node/mongodb/' },
+      { text: 'Koa', link: '/node/koa/' },
+      { text: 'Any', link: '/node/any/' },
     ],
   },
   {
-    text: "神级网站",
-    link: '/web/collect/'
+    text: "收藏夹",
+    link: '/collect/',
+    items: [
+      { text: "Website", link: "/collect/website/"},
+      { text: "blog", link: "/collect/blog"},
+    ]
   }
 ]

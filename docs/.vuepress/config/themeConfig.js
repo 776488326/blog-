@@ -1,11 +1,9 @@
 const nav = require('./nav.js');
-// const htmlModules = require('./htmlModules.js');
-const sidebar = require('./sidebar.js');
 
 // 主题配置
 module.exports = {
   nav,
-  sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
+  sidebarDepth: 1, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: '/img/logo.png', // 导航栏logo
   // repo: 'xugaoyi/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
@@ -30,7 +28,7 @@ module.exports = {
   titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     '/img/artical.png',
   ],
-  contentBgStyle: 3, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
+  contentBgStyle: 6, // 文章内容块的背景风格，默认无. 1 => 方格 | 2 => 横线 | 3 => 竖线 | 4 => 左斜线 | 5 => 右斜线 | 6 => 点状
 
   // updateBar: { // 最近更新栏
   //   showToArticle: true, // 显示到文章页底部，默认true
@@ -73,7 +71,6 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'feng liang | No', // 博客版权信息，支持a标签
+      'feng liang', // 博客版权信息，支持a标签
   },
-  // htmlModules // 插入hmtl(广告)模块
 }
