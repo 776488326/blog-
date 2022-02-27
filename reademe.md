@@ -39,5 +39,5 @@
 - 简历     /resume              /
 - 计算机   /compute             /http         /ds          /os
 - 前端     /web                 /html         /css         /js
-- 后端     /node                /node         /mongodb     /koa  /any           
+- 后端     /node                /node         /mongodb     /koa     /any           
 - 收藏夹   /collect             /website      /blog

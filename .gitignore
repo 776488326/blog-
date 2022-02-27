@@ -11,3 +11,5 @@ yarn.lock
 # vuepress
 docs/.vuepress/dist
 
+test.html
+

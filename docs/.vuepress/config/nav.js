@@ -10,9 +10,9 @@ module.exports = [
     text: '计算机',
     link: '/compute/',
     items: [
-      {text: "Http",link: "/compute/http"},
-      {text: "DateStruct",link: "/compute/ds"},
-      {text: "OperatingSystem",link: "/compute/os"},
+      {text: "Http",link: "/compute/http/"},
+      {text: "DateStruct",link: "/compute/ds/"},
+      {text: "OperatingSystem",link: "/compute/os/"},
     ]
   },
   {
@@ -40,7 +40,7 @@ module.exports = [
     link: '/collect/',
     items: [
       { text: "Website", link: "/collect/website/"},
-      { text: "blog", link: "/collect/blog"},
+      { text: "headCoding", link: "/collect/code/"},
     ]
   }
 ]
