@@ -12,5 +12,5 @@ module.exports = {
     lineNumbers: true, // 代码行号
   },
   head,
-  themeConfig
+  themeConfig,
 }

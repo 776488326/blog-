@@ -19,10 +19,14 @@ module.exports = [
     text: '前端',
     link: '/web/',
     items: [
-      { text: 'HTML', link: '/web/html/' },
-      { text: 'CSS', link: '/web/css/' },
-      { text: 'JS', link: '/web/js/' },
-      { text: 'VUE', link: '/web/vue/' },
+      { text: 'Html', link: '/web/html/' },
+      { text: 'Css', link: '/web/css/' },
+      { text: 'JavaScript', link: '/web/js/' },
+      { text: 'TypeScript', link: '/web/ts/' },
+      { text: 'Vue2', link: '/web/vue2/' },
+      { text: 'Vue3', link: '/web/vue3/' },
+      { text: 'Webpack', link: '/web/webpack/' },
+      { text: 'Vite', link: '/web/vite/' },
     ],
   },
   {

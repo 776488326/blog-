@@ -4,13 +4,15 @@
   "scripts": {
     "dev": "vuepress dev docs --open",
     "build": "vuepress build docs",
-    "deploy": "deploy.sh",
-    "deployo": "deployo.sh"
+    "deploy": "sh deploy.sh",
+    "deployo": "sh deployo.sh",
+    "editFm": "node utils/editFrontmatter.js"
   },
   "license": "MIT",
   "devDependencies": {
     "inquirer": "^7.1.0",
     "vuepress": "1.8.0",
-    "vuepress-theme-vdoing": "^1.8.3"
+    "vuepress-theme-vdoing": "^1.11.3",
+    "yamljs": "^0.3.0"
   }
 }
