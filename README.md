@@ -14,7 +14,7 @@
 - npm i 
 
 # 项目运行
-- npm run dev
+- npm run serve
 
 # 项目打包发布
 - npm run deploy
