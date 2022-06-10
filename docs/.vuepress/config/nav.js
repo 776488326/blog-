@@ -27,6 +27,7 @@ module.exports = [
       { text: 'Vue3', link: '/web/vue3/' },
       { text: 'Webpack', link: '/web/webpack/' },
       { text: 'Vite', link: '/web/vite/' },
+      { text: 'Reg', link: '/web/reg/' },
     ],
   },
   {
